@@ -1,0 +1,33 @@
+{
+  "name": "my_app",
+  "version": "0.1.0",
+  "bin": {
+    "my_app": "bin/my_app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.6",
+    "aws-cdk": "2.69.0",
+    "esbuild": "0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "~4.9.5"
+  },
+  "dependencies": {
+    "@aws-appsync/utils": "^1.1.0",
+    "@aws-cdk/aws-appsync": "^1.197.0",
+    "@aws-cdk/aws-cognito": "^1.197.0",
+    "@aws-cdk/aws-dynamodb": "^1.197.0",
+    "@aws-cdk/aws-lambda": "^1.197.0",
+    "aws-cdk-lib": "2.69.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}

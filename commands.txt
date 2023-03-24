@@ -1,0 +1,6 @@
+cdk init --language=typescript
+yarn add @aws-cdk/aws-cognito @aws-cdk/aws-appsync @aws-cdk/aws-lambda @aws-cdk/aws-dynamodb
+yarn add --dev esbuild@0
+cdk bootstrap
+cdk synth
+cdk deploy
